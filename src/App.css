@@ -1,0 +1,10 @@
+#root{
+  background-color: aqua;
+  padding: 0px;
+  margin: 0;
+  border: 8px solid black;
+}
+
+.box1{
+  background-color: chocolate;
+}
