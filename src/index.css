@@ -6,19 +6,23 @@ body{
 #root{
   background-color: rgb(142, 142, 142);
   width: 1400px;
-  height: 1600px;
+  height: 2000px;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(14,100px);
-  grid-template-rows: repeat(16,100px);
+  grid-template-rows: repeat(20,100px);
   grid-template-areas:
   " uperlogo uperlogo uperlogo uperlogo uperlogo uperlogo barnav barnav barnav barnav barnav barnav barnav barnav "
   " section1 section1 section1 section1 section1 section1 section1 section1r section1r section1r section1r section1r section1r section1r "
   " section1 section1 section1 section1 section1 section1 section1 section1r section1r section1r section1r section1r section1r section1r "
   " section1 section1 section1 section1 section1 section1 section1 section1r section1r section1r section1r section1r section1r section1r "
-  " section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
-  " section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
-  " section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
+  " section2title section2title section2title section2title section2title section2title section2title section2button section2button section2button section2button section2button section2button section2button"
+  " . . section2cardone section2cardone section2cardone section2cardtwo section2cardtwo section2cardtwo section2cardtwo section2cardthree section2cardthree section2cardthree . ."
+  " . . section2cardone section2cardone section2cardone section2cardtwo section2cardtwo section2cardtwo section2cardtwo section2cardthree section2cardthree section2cardthree . ."
+  " . . section2cardone section2cardone section2cardone section2cardtwo section2cardtwo section2cardtwo section2cardtwo section2cardthree section2cardthree section2cardthree . ."
+  " . . section2cardone section2cardone section2cardone section2cardtwo section2cardtwo section2cardtwo section2cardtwo section2cardthree section2cardthree section2cardthree . ."
+  " . . section2cardone section2cardone section2cardone section2cardtwo section2cardtwo section2cardtwo section2cardtwo section2cardthree section2cardthree section2cardthree . ."
+  " . . section2cardone section2cardone section2cardone section2cardtwo section2cardtwo section2cardtwo section2cardtwo section2cardthree section2cardthree section2cardthree . ."
   " section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
   " section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
   " section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"

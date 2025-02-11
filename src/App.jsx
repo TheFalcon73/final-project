@@ -1,11 +1,15 @@
 import './App.css'
 import './components/SectionOne.css'
+import './components/SectionTwo.css'
 import Navbar from './components/Navbar'
 import LittleLogo from './components/LittleLogo'
 import FooterLogo from './components/FooterLogo'
 import Doormat from './components/Doormat'
 import SectionOneLeft from './components/SectionOneLeft'
 import SectionOneRight from './components/SectionOneRight'
+import SectionTwoCardOne from './components/SectionTwoCardOne'
+import SectionTwoCardTwo from './components/SectionTwoCardTwo'
+import SectionTwoCardThree from './components/SectionTwoCardThree'
 
 
 function App() {
@@ -30,8 +34,24 @@ function App() {
       <SectionOneRight />
       </div>
 
-      <div className='section2'>
-      Seccion2
+      <div className='section2cardone'>
+      <SectionTwoCardOne />
+      </div>
+
+      <div className='section2cardtwo'>
+      <SectionTwoCardTwo />
+      </div>
+
+      <div className='section2cardthree'>
+      <SectionTwoCardThree />
+      </div>
+
+      <div className='section2title'>
+      <h1>This Week Specials!</h1>
+      </div>
+
+      <div className='section2button'>
+      <button className='section2buttonstyle' type='button'>Online Menu</button>
       </div>
 
       <div className='section3'>
