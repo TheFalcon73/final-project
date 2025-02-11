@@ -1,6 +1,6 @@
 .barranav{
   background-color: rgb(255, 255, 255);
-  width: 700px;
+  width: 800px;
   height: 100px;
   justify-items: center;
   align-content: center;
@@ -9,19 +9,20 @@
 
 .upperlogo {
   background-color: rgb(255, 255, 255);
-  width: 500px;
+  width: 600px;
   height: 100px;
   position: relative;
-  align-content: center;
   align-items: center;
-  justify-items: center;
-  justify-content: center;
+  justify-content: left;
   display: flex;
   grid-column: 1/8;
   grid-row: 1/2;
   grid-area: uperlogo;
 }
 
+.upperlogo img{
+  margin-left: 200px;
+}
 
 .navbar ul{
   list-style-type: none;
@@ -91,8 +92,12 @@
   margin: 0px;
   padding: 0px;
   grid-area: footerlogo;
-  justify-items: center;
+  justify-items: left;
   align-content: center;
+}
+
+.footerlogo img{
+ margin-left: 200px;
 }
 
 .doormat{
