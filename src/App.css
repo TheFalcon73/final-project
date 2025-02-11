@@ -125,7 +125,7 @@
 }
 
 .doormatnav{
-  font:  1em "Karla", sans-serif;
+  font:  .8em "Karla", sans-serif;
   color: black;
 }
 
@@ -148,6 +148,6 @@
 .doormattitle{
   margin-right: 20px;
   padding-right: 20px;
-  font: bold 1em "Karla", sans-serif;
+  font: bold .8em "Karla", sans-serif;
   text-align: left;
 }
