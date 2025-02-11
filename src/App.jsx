@@ -2,7 +2,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import LittleLogo from './components/LittleLogo'
 import FooterLogo from './components/FooterLogo'
-
+import Doormat from './components/Doormat'
+import SectionOneLeft from './components/SectionOneLeft'
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       </div>
 
       <div className='section1'>
-      Seccion1
+      <SectionOneLeft />
       </div>
 
       <div className='section2'>
@@ -40,7 +41,7 @@ function App() {
       </div>
 
       <div className='doormat'>
-      <p>Doormat</p>
+      <Doormat />
       </div>
 
       <div className='contact'>

@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(52, 52, 52);
+  background-color: #202020;
   justify-items: center;
 }
 
@@ -13,9 +13,9 @@ body{
   grid-template-rows: repeat(16,100px);
   grid-template-areas:
   " uperlogo uperlogo uperlogo uperlogo uperlogo uperlogo barnav barnav barnav barnav barnav barnav barnav barnav "
-  " section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1"
-  " section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1"
-  " section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1"
+  " section1 section1 section1 section1 section1 section1 section1 . . . . . . . "
+  " section1 section1 section1 section1 section1 section1 section1 . . . . . . . "
+  " section1 section1 section1 section1 section1 section1 section1 . . . . . . . "
   " section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
   " section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
   " section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
