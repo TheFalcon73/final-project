@@ -1,10 +1,132 @@
-#root{
-  background-color: aqua;
-  padding: 0px;
-  margin: 0;
-  border: 8px solid black;
+.barranav{
+  background-color: rgb(255, 255, 255);
+  width: 700px;
+  height: 100px;
+  justify-items: center;
+  align-content: center;
+  grid-area: barnav;
 }
 
-.box1{
-  background-color: chocolate;
+.upperlogo {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 100px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  grid-column: 1/8;
+  grid-row: 1/2;
+  grid-area: uperlogo;
+}
+
+
+.navbar ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar li{
+  float:left;
+  background-color:rgb(254, 254, 254);
+}
+
+.navbar a{
+  color:black;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+
+.section1{
+  background-color: rgb(57, 80, 62);
+  width: 1400px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  grid-area: section1;
+}
+
+.section2{
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  grid-area: section2;
+}
+
+.section3{
+  background-color: rgb(125, 125, 125);
+  width: 1400px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  grid-area: section3;
+}
+
+.section4{
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  grid-area: section4;
+}
+
+.footerlogo{
+  background-color: rgb(162, 162, 162);
+  width: 500px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  grid-area: footerlogo;
+  justify-items: center;
+  align-content: center;
+}
+
+.doormat{
+  background-color: rgb(162, 162, 162);
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  grid-area: doormat;
+  justify-items: center;
+  align-content: center;
+}
+
+.contact{
+  background-color: rgb(162, 162, 162);
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  grid-area: contact;
+  justify-items: center;
+  align-content: center;
+}
+
+.social{
+  background-color: rgb(162, 162, 162);
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  grid-area: social;
+  justify-items: center;
+  align-content: center;
 }

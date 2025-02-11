@@ -1,18 +1,35 @@
-:root{
-  background-color: rgb(84, 84, 84);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+body{
+  background-color: rgb(52, 52, 52);
+  justify-items: center;
 }
 
-body{
-  
+#root{
   background-color: rgb(255, 255, 255);
-  display: flex;
-  width: 1240px;
-  height: 100%;
-  min-height: 1441px;
-  justify-content: center;
-  align-items: flex-start;
-  }
+  width: 1400px;
+  height: 1600px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(14,100px);
+  grid-template-rows: repeat(16,100px);
+  grid-template-areas:
+  " uperlogo uperlogo uperlogo uperlogo uperlogo barnav barnav barnav barnav barnav barnav barnav barnav barnav "
+  " section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1"
+  " section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1"
+  " section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1 section1"
+  " section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
+  " section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
+  " section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2"
+  " section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
+  " section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
+  " section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
+  " section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4"
+  " section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4"
+  " section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4"
+  " footerlogo footerlogo footerlogo footerlogo footerlogo doormat doormat doormat contact contact contact social social social "
+  " footerlogo footerlogo footerlogo footerlogo footerlogo doormat doormat doormat contact contact contact social social social "
+  " footerlogo footerlogo footerlogo footerlogo footerlogo doormat doormat doormat contact contact contact social social social "
+  ;
+  justify-items: center;
+  align-items: center;
+}
+
