@@ -1,9 +1,11 @@
 import './App.css'
+import './components/SectionOne.css'
 import Navbar from './components/Navbar'
 import LittleLogo from './components/LittleLogo'
 import FooterLogo from './components/FooterLogo'
 import Doormat from './components/Doormat'
 import SectionOneLeft from './components/SectionOneLeft'
+import SectionOneRight from './components/SectionOneRight'
 
 
 function App() {
@@ -22,6 +24,10 @@ function App() {
 
       <div className='section1'>
       <SectionOneLeft />
+      </div>
+
+      <div className='section1r'>
+      <SectionOneRight />
       </div>
 
       <div className='section2'>

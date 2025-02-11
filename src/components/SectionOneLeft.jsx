@@ -11,5 +11,5 @@ const SectionOneLeft = () => {
       </>
     )
   }
-  
+
   export default SectionOneLeft
