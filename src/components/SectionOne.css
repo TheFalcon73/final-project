@@ -72,33 +72,94 @@
   }
 
   @media all and (max-width: 430px) {
+    
     .section1{
-      display: none;
+    background-color: #495E57;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    grid-area: section1;
+    display: flex;
+    flex-direction: column;
     }
-  
+
     .maintitle {
-      display: none;
+        color: #F4CE14;
+        font-family: 'Markazi Text';
+        font-size: 2em;
+        margin: 0px;
+        margin-top: 15px;
+        margin-left: 15px;
+        padding: 0px;
+        width: 50%;
+        height: 10%;
+        align-content: center;
     }
-  
+
     .mainsubtitle{
-      display: none;
+      color: white;
+      font-family: 'Markazi Text';
+      font-size: 1.5em;
+      margin: 0px;
+      margin-left: 15px;
+      padding: 0px;
+      width: 50%;
+      height: 10%;
+
     }
-  
+
     .welcomemessage{
-      display: none;
-  
+      color: rgb(255, 255, 255);
+      font-family: 'Karla', sans-serif;
+      font-size: .9em;
+      margin: 0px;
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 0px;
+
     }
-  
+
     .sectiononebutton{
-      display: none;
+      background-color:#F4CE14 ;
+      border: none;
+      border-radius: 8px;
+      color: rgb(0, 0, 0);
+      font:  bold .8em "Arial";
+      margin-left: 15px;
+      margin-top: 15px;
+      padding: 0px;
+      width: 50%;
+      height: 40px;
+      cursor: pointer;
+      align-self: center;
     }
-  
-  
+
+
     .section1r{
-      display: none;
+      grid-area: section1r;
+      background-color:#495E57;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      margin: 0px;
+      margin-top: 0px;
+      padding: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: visible;
+      z-index: 999;
     }
-  
+
     .foodpic{
-      display: none;
+      border-radius: 12px;
+      width: 100%;
+      height: 150%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+      margin-top: -70px;
+      margin-left: 15px;
+      margin-right: 15px;
     }
   }
