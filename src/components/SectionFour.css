@@ -84,3 +84,45 @@
   }
 
   /* End of SECTION 4 */
+
+  @media all and (max-width: 430px){
+/* SECTION 4 */
+
+.section4title{
+  display: none;
+}
+
+.section4title h1{
+  display: none;
+}
+
+.section4subtitle{
+  display: none;
+}
+
+.section4subtitle h2{
+  display: none;
+}
+
+.section4description{
+  display: none;
+}
+
+.chef1{
+  display: none;
+}
+
+.chef1container{
+  display: none;
+}
+
+ .chef2{
+  display: none;
+}
+
+.chef2container{
+display: none;
+}
+
+
+}

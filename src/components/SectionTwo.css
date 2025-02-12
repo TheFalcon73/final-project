@@ -216,8 +216,126 @@
   }
   /* ---- End of Card 3 ---- */
 
-  /* ---- Section 3 ---- */
+
 
   .checked { /*stars*/
     color: orange;
   }
+
+
+
+  @media all and (max-width: 430px){
+.section2{
+  display: none;
+  }
+
+  .section2title{
+    display: none;
+  }
+
+  .section2title h1{
+    display: none;
+  }
+
+  .section2button{
+    display: none;
+  }
+
+  .section2buttonstyle{
+    display: none;
+  }
+
+
+  /* ---- Card 1 ----*/
+
+  .section2cardone{
+    display: none;
+  }
+
+  .saladpic{
+    display: none;
+  }
+
+  .cardonetext{
+    display: none;
+  }
+
+  .cardonetitle{
+    display: none;
+  }
+
+  .cardonedescription{
+    display: none;
+  }
+
+  .ordercardone{
+    display: none;
+  /* ----End of Card 1 ----*/
+  }
+
+  /* ---- Card 2 ---- */
+  
+  .section2cardtwo{
+    display: none;
+  }
+
+
+  .foodpic2{
+    display: none;
+  }
+
+  .cardtwotext{
+    display: none;
+  }
+
+  .cardtwotitle{
+    display: none;
+  }
+
+  .cardtwodescription{
+    display: none;
+  }
+
+  .ordercardtwo{
+    display: none;
+  }
+  /* ---- End of Card 2 ---- */
+
+
+
+
+  /* ---- Card 3 ---- */
+
+  .section2cardthree{
+    display: none;
+  }
+
+  .foodpic3{
+    display: none;
+  }
+
+  .cardthreetext{
+    display: none;
+  }
+
+  .cardthreetitle{
+    display: none;
+  }
+
+  .cardthreedescription{
+    display: none;
+  }
+
+  .ordercardthree{
+    display: none;
+  }
+  /* ---- End of Card 3 ---- */
+
+
+
+  .checked { /*stars*/
+   display: none;
+  }
+
+
+}

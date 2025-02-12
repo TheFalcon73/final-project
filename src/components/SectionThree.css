@@ -198,3 +198,102 @@
 }
 
 /* ---- END BOX 3 ---- */
+
+@media all and (max-width: 430px){
+    /* ---- GENERAL ---- */
+.section3background{
+    display: none;
+
+}
+
+.rating{
+    display: none;
+}
+
+.section3title{
+    display: none;
+}
+
+/* ---- END GENERAL ---- */
+
+/* ---- BOX 1 ---- */
+
+.section3box1{
+    display: none;
+
+  }
+
+
+
+.person1{
+    display: none;
+}
+
+.person1text{
+    display: none;
+}
+
+.person1name{
+    display: none;
+}
+
+.person1description{
+    display: none;
+
+}
+
+/* ---- END BOX 1 ---- */
+
+
+/* ---- BOX 2 ---- */
+
+.section3box2{
+    display: none;
+  }
+
+.person2{
+    display: none;
+}
+
+.person2text{
+    display: none;
+}
+
+.person2name{
+    display: none;
+}
+
+.person2description{
+    display: none;
+
+}
+
+/* ---- END BOX 2 ---- */
+
+/* ---- BOX 3 ---- */
+
+.section3box3{
+    display: none;
+  }
+
+.person3{
+    display: none;
+}
+
+.person3text{
+    display: none;
+}
+
+.person3name{
+    display: none;
+}
+
+.person3description{
+display: none;
+
+}
+
+/* ---- END BOX 3 ---- */
+
+
+}

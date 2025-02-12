@@ -71,3 +71,34 @@
     margin-top: 20px;
   }
 
+  @media all and (max-width: 430px) {
+    .section1{
+      display: none;
+    }
+  
+    .maintitle {
+      display: none;
+    }
+  
+    .mainsubtitle{
+      display: none;
+    }
+  
+    .welcomemessage{
+      display: none;
+  
+    }
+  
+    .sectiononebutton{
+      display: none;
+    }
+  
+  
+    .section1r{
+      display: none;
+    }
+  
+    .foodpic{
+      display: none;
+    }
+  }
