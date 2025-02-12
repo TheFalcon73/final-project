@@ -1,0 +1,200 @@
+/* ---- GENERAL ---- */
+.section3background{
+    background-color:#404040 ;
+    width: 1400px;
+    height: 600px;
+    grid-column: 2/14;
+    grid-row: 12/18;
+
+}
+
+.rating{
+    font-size: 1.5em;
+    font-family: "Karla", sans-serif;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section3title{
+    width: 400px;
+    height: 100px;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-size: 12pt;
+    font-weight: 800;
+    grid-area: section3title;
+    z-index: 99;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+}
+
+/* ---- END GENERAL ---- */
+
+/* ---- BOX 1 ---- */
+
+.section3box1{
+    background-color: #EDEFEE;
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    grid-area: section3box1;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    z-index: 99;
+    box-shadow: 5px 5px 5px 5px rgb(33, 33, 33);
+
+  }
+
+
+
+.person1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.person1text{
+    justify-self: center;
+    align-self: center;
+}
+
+.person1name{
+    margin: 0px;
+    padding: 0px;
+    justify-self: center;
+    font-size: 2em;
+    margin-top: -10px;
+}
+
+.person1description{
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-self: center;
+    text-align: center;
+    font-size: .9em;
+
+}
+
+/* ---- END BOX 1 ---- */
+
+
+/* ---- BOX 2 ---- */
+
+.section3box2{
+    background-color: #EDEFEE;
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    grid-area: section3box2;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    z-index: 99;
+    box-shadow: 5px 5px 5px 5px rgb(33, 33, 33);
+  }
+
+.person2{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.person2text{
+    justify-self: center;
+    align-self: center;
+}
+
+.person2name{
+    margin: 0px;
+    padding: 0px;
+    justify-self: center;
+    font-size: 2em;
+    margin-top: -10px;
+}
+
+.person2description{
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-self: center;
+    text-align: center;
+    font-size: .9em;
+
+}
+
+/* ---- END BOX 2 ---- */
+
+/* ---- BOX 3 ---- */
+
+.section3box3{
+    background-color: #EDEFEE;
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    grid-area: section3box3;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    z-index: 99;
+    box-shadow: 5px 5px 5px 5px rgb(33, 33, 33);
+  }
+
+.person3{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.person3text{
+    justify-self: center;
+    align-self: center;
+}
+
+.person3name{
+    margin: 0px;
+    padding: 0px;
+    justify-self: center;
+    font-size: 2em;
+    margin-top: -10px;
+}
+
+.person3description{
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-self: center;
+    text-align: center;
+    font-size: .9em;
+
+}
+
+/* ---- END BOX 3 ---- */

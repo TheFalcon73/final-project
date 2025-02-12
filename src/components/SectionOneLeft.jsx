@@ -5,7 +5,7 @@ const SectionOneLeft = () => {
         <h1 className="maintitle">Little Lemon</h1>
         <h2 className="mainsubtitle">Chicago</h2>
         <div className="welcomemessage">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis blandit posuere. Suspendisse potenti. Etiam mollis sollicitudin ligula non venenatis. Praesent lobortis tempus elit ut congue. Donec libero magna, pellentesque non nibh nec, aliquet semper justo. Nunc sed consequat nisi, eu scelerisque ex.
+        Welcome to Little Lemon – a vibrant Mediterranean restaurant founded by the Andorra brothers. Located on 5th Avenue, we bring fresh, authentic flavors to the heart of the city. With a passion for quality ingredients and warm hospitality, Little Lemon is more than just a dining experience—it's a taste of tradition, community, and culinary excellence.
         </div>
         <button className="sectiononebutton" type="button">Reserve Table</button>
       </>

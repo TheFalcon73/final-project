@@ -215,3 +215,9 @@
     margin-top: 50px;
   }
   /* ---- End of Card 3 ---- */
+
+  /* ---- Section 3 ---- */
+
+  .checked { /*stars*/
+    color: orange;
+  }

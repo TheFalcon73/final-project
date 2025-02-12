@@ -6,11 +6,11 @@ body{
 #root{
   background-color: rgb(255, 255, 255);
   width: 1400px;
-  height: 2000px;
+  height: 2600px;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(14,100px);
-  grid-template-rows: repeat(20,100px);
+  grid-template-rows: repeat(26,100px);
   grid-template-areas:
   " uperlogo uperlogo uperlogo uperlogo uperlogo uperlogo barnav barnav barnav barnav barnav barnav barnav barnav "
   " section1 section1 section1 section1 section1 section1 section1 section1r section1r section1r section1r section1r section1r section1r "
@@ -23,12 +23,18 @@ body{
   " . . section2cardone section2cardone section2cardone section2cardtwo section2cardtwo section2cardtwo section2cardtwo section2cardthree section2cardthree section2cardthree . ."
   " . . section2cardone section2cardone section2cardone section2cardtwo section2cardtwo section2cardtwo section2cardtwo section2cardthree section2cardthree section2cardthree . ."
   " . . section2cardone section2cardone section2cardone section2cardtwo section2cardtwo section2cardtwo section2cardtwo section2cardthree section2cardthree section2cardthree . ."
-  " section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
-  " section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
-  " section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3"
-  " section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4"
-  " section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4"
-  " section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4 section4"
+  " . . . . . section3title section3title section3title section3title . . . . . "
+  " . . section3box1 section3box1 section3box1 section3box2 section3box2 section3box2 section3box2 section3box3 section3box3 section3box3 . ."
+  " . . section3box1 section3box1 section3box1 section3box2 section3box2 section3box2 section3box2 section3box3 section3box3 section3box3 . ."
+  " . . section3box1 section3box1 section3box1 section3box2 section3box2 section3box2 section3box2 section3box3 section3box3 section3box3 . ."
+  " . . section3box1 section3box1 section3box1 section3box2 section3box2 section3box2 section3box2 section3box3 section3box3 section3box3 . ."
+  " . . . . . . . . . . . . . . "
+  " . . . . . . . . . . . . . ."
+  " . . section4title section4title section4title section4title . chef1container chef1container chef1container . . . ."
+  " . . section4subtitle section4subtitle section4subtitle section4subtitle . chef1container chef1container chef1container . . . ."
+  " . . section4description section4description section4description section4description . chef1container chef1container chef1container . . . ."
+  " . . section4description section4description section4description section4description . chef1container chef1container chef1container . . . ."
+  " . . . . . . . . . . . . . ."
   " footerlogo footerlogo footerlogo footerlogo footerlogo doormat doormat doormat contact contact contact social social social "
   " footerlogo footerlogo footerlogo footerlogo footerlogo doormat doormat doormat contact contact contact social social social "
   " footerlogo footerlogo footerlogo footerlogo footerlogo doormat doormat doormat contact contact contact social social social "
