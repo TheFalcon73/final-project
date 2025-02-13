@@ -201,7 +201,7 @@
 
 /********************************************************* MEDIA QUERY *******************************/
 
-@media all and (max-width: 430px){
+@media all and (max-width: 431px){
     /* ---- GENERAL ---- */
     .section3background{
         background-color:#404040 ;

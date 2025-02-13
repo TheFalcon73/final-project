@@ -27,6 +27,7 @@ function Home() {
 
   return (
     <>
+    <div className='container1'>
       {/* Navbar and logo */}
 
         <div className="upperlogo">
@@ -35,7 +36,6 @@ function Home() {
 
         <div className='barranav'>
             <Navbar />
-
         </div>
 
       {/* End Navbar and logo */}
@@ -151,6 +151,7 @@ function Home() {
       </div>
 
       {/* End Footer Section */}
+      </div>
     </>
   )
 }

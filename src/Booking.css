@@ -1,15 +1,64 @@
+.container2{
+    background-color: rgb(255, 255, 255);
+    width: 1400px;
+    height: 2600px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(14,100px);
+    grid-template-rows: repeat(26,100px);
+    grid-template-areas:
+    " uperlogo uperlogo uperlogo uperlogo uperlogo uperlogo barnav barnav barnav barnav barnav barnav barnav barnav "
+    ". . formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 . ."
+    ". . formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 . ."
+    ". . formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 . ."
+    ". . formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 formbox1 . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . ."
+}
+
 .formbox1{
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
+    font-family: "Karla", sans-serif;
+    font-size: 1em;
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(137, 136, 138);
     align-items: center;
     justify-items: center;
-    background-color: blue;
     align-content: center;
     justify-content: center;
+    grid-area: formbox1;
 }
+
+.formbox1 input select{
+    font-family: "Karla", sans-serif;
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+
+}
+
+
 .formstyle{
     display: grid;
-    max-width: 200px;
-    gap: 20px
+    width: 70%;
+    gap:20px;
 }
