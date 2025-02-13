@@ -222,7 +222,7 @@
     color: orange;
   }
 
-
+/************************************************** MEDIA QUERY *******************************************/
 
   @media all and (max-width: 430px){
 .section2{
@@ -241,6 +241,7 @@
     height: 100%;
     box-sizing: border-box;
     margin: 0px;
+    margin-top: 130px;
     padding-left: 0px;
     align-content: center;
     justify-content: center;
@@ -269,6 +270,7 @@
     display: flex;
     justify-content: center;
     justify-items: center;
+
   }
 
   .section2buttonstyle{

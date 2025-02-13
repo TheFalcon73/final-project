@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Menu</a></li>
-            <li><a href="">Reservation</a></li>
+            <li><Link to='/booking' href="/booking">Reservation</Link></li>
             <li><a href="">Order online</a></li>
             <li><a href="">Login</a></li>
         </ul>

@@ -27,9 +27,11 @@
 
   .welcomemessage{
     margin-left: 200px;
+    margin-top: -10px;
     color: rgb(255, 255, 255);
     font-family: 'Karla', sans-serif;
-    font-size: .9em;
+    font-weight: normal;
+    font-size: 11pt;
 
   }
 
@@ -40,7 +42,7 @@
     color: rgb(0, 0, 0);
     font:  bold .8em "Arial";
     margin-left: 200px;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 0px;
     width: 200px;
     height: 40px;
@@ -93,7 +95,7 @@
         margin-top: 15px;
         margin-left: 15px;
         padding: 0px;
-        width: 50%;
+        width: 100%;
         height: 10%;
         align-content: center;
     }
@@ -115,6 +117,7 @@
       font-family: 'Karla', sans-serif;
       font-size: .9em;
       margin: 0px;
+      margin-top: 15px;
       margin-left: 15px;
       margin-right: 15px;
       padding: 0px;
@@ -158,7 +161,7 @@
       width: 100%;
       height: 150%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
-      margin-top: -70px;
+      margin-top: 80px;
       margin-left: 15px;
       margin-right: 15px;
     }
