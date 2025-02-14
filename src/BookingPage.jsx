@@ -7,8 +7,22 @@ import FooterLogo from './components/FooterLogo'
 import Doormat from './components/Doormat'
 import Contact from './components/Contact'
 import Social from './components/Social'
+import { useState } from 'react'
 
-export default function BookingPage() {
+
+
+const BookingPage = () => {
+  
+  const [availableTimes, setAvailableTimes] = useState([
+    "12:00 PM",
+    "1:00 PM",
+    "2:00 PM",
+    "3:00 PM",
+    "4:00 PM",
+    "5:00 PM",
+  ]);
+
+
   return (
     <div className='container2'>
     {/* Navbar and logo */}
@@ -22,7 +36,7 @@ export default function BookingPage() {
     {/* End Navbar and logo */}
 
     {/* Booking Form */}
-        <BookingForm></BookingForm>
+        <BookingForm availableTimes={availableTimes}/>
     {/* Booking Form */}
 
     {/* Footer */}
@@ -46,3 +60,5 @@ export default function BookingPage() {
     
   )
 }
+
+export default BookingPage;
