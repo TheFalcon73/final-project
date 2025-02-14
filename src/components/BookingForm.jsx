@@ -5,7 +5,12 @@ import panoramic from '../assets/panoramic.jpg'
 import { useForm } from 'react-hook-form'
 
 
-const BookingForm = ({availableTimes}) => {
+const BookingForm = ({availableTimes, dispatch}) => {
+    
+    const handleDateChange = (event) => {
+        dispatch({ type: "UPDATE_TIMES", date: event.target.value });
+      };
+    
     
     const {register, handleSubmit, 
         formState: {errors}
@@ -37,6 +42,7 @@ const BookingForm = ({availableTimes}) => {
                         type="date"
                         id="resdate" 
                         {...register("resdate", {required: true})}
+                        onChange={handleDateChange}
                     ></input>
                     
                     {

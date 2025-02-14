@@ -7,21 +7,30 @@ import FooterLogo from './components/FooterLogo'
 import Doormat from './components/Doormat'
 import Contact from './components/Contact'
 import Social from './components/Social'
-import { useState } from 'react'
+import { useReducer  } from 'react'
 
+// Función para inicializar los horarios disponibles
+const initializeTimes = () => [
+  "12:00 PM",
+  "1:00 PM",
+  "2:00 PM",
+  "3:10 PM",
+  "4:00 PM",
+  "5:00 PM",
+];
 
+// Reducer que maneja cambios en los horarios disponibles
+  const updateTimes = (state, action) => {
+    if (action.type === "UPDATE_TIMES") {
+      // Por ahora, devolvemos los mismos horarios sin importar la fecha
+      return initializeTimes();
+    }
+    return state;
+  };
 
 const BookingPage = () => {
-  
-  const [availableTimes, setAvailableTimes] = useState([
-    "12:00 PM",
-    "1:00 PM",
-    "2:00 PM",
-    "3:00 PM",
-    "4:00 PM",
-    "5:00 PM",
-  ]);
 
+  const [availableTimes, dispatch] = useReducer(updateTimes, [], initializeTimes);
 
   return (
     <div className='container2'>
@@ -36,7 +45,7 @@ const BookingPage = () => {
     {/* End Navbar and logo */}
 
     {/* Booking Form */}
-        <BookingForm availableTimes={availableTimes}/>
+        <BookingForm availableTimes={availableTimes} dispatch={dispatch}/>
     {/* Booking Form */}
 
     {/* Footer */}
