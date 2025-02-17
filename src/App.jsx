@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css'
 import './components/SectionOne.css'
 import './components/SectionTwo.css'
